@@ -1,0 +1,1039 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="迈点导航,酒店业微博,酒店业微信,酒店业二维码,APP推荐,网址导航,酒店业资料下载" />
+<meta name="description" content="迈点导航是中国酒店业门户迈点网旗下导航网站，囊括了酒店微博、微信、二维码、APP等新媒体应用，以及传统的新闻资讯、招聘培训、管理咨询、预订促销、用品采购、筹建规划等常用站点，是专业为酒店人和酒店业提供专业服务的垂直导航网站。酒店人上网从迈点导航开始。" />
+<title>迈点导航</title>
+<link rel="stylesheet" type="text/css" href="css/layout.css" />
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/md123.js"></script>
+</head>
+
+<body class="skin_color_green">
+<div class="userbar">
+	<div class="weather_plugin fl">杭州： 9℃～18℃  空气质量： 良</div>
+    <div class="login_box fl"><a href="javascript:;" class="login_link">登录</a> | <a href="http://www.meadin.com/passport/Person_Reg.shtml" target="_blank">免费注册</a></div>
+    <div class="toolbar fr"><a href="javascript:setHomepage('http://www.meadin.com/');" class="g_icon getHomepage">设为主页</a> <i>|</i> <a href="javascript:addFavorite();">加入收藏</a> <i>|</i> <span class="g_icon">换肤</span><a href="javascript:changeSkin('green');" title="点击切换默认皮肤" class="skin skin_green">&nbsp;</a><a href="javascript:changeSkin('blue');" title="点击切换蓝色皮肤" class="skin skin_blue">&nbsp;</a><a href="javascript:changeSkin('orange');" title="点击切换橙色皮肤" class="skin skin_orange">&nbsp;</a></div>
+</div>
+<div id="layout">
+	<div class="layout_header">
+    	<div class="index_logo fl">
+        	<h1><a href="index.html" target="_blank" title="迈点导航"><img src="images/logo.png" alt="迈点导航" width="200" height="40"/></a></h1>
+        </div>
+        <div class="index_banner fr"><a href="#" target="_blank"><img src="images/banner.jpg" alt="头部banner" width="222" height="51"/></a></div>
+        <div class="index_middle">
+        	<div class="im_date fl">
+                <div class="today_date"><strong class="thedate">3月18日 </strong> <span class="theweek">星期一</span> </div>
+                <div class="today_lmonth">(农历二月初七) </div>
+            </div>
+            <div class="im_mail fl">
+            	<div class="email_widget">
+                	<div class="mail_account"><input id="input_account" type="text" class="input_account fl"/><span class="select_mailtype fl">请选择邮箱</span><label for="input_account" class="ew_tip">邮箱帐号</label>
+                    </div>
+                    <div class="mail_password"><input id="input_password" type="password" class="input_password fl"/><input type="button"  value="登录" class="email_login_btn fl"/><label for="input_password" class="ew_tip">密码</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="layout_search">
+    	<div class="search_inner">
+        	<div class="search_hd">
+        		<ul class="meadin_tab">
+                	<li class="on"><a href="http://so.meadin.com/search/news">资讯</a></li>
+                    <li><a href="http://so.meadin.com/search/document">文档</a></li>
+                    <li><a href="http://so.meadin.com/search/report">报告</a></li>
+                    <li><a href="http://so.meadin.com/search/course">课程</a></li>
+                    <li><a href="http://baike.meadin.com/enterEntry/" class="mdbk">百科</a></li>
+                </ul>
+                <ul class="baidu_tab" style="display:none;">
+                    <li><a href="http://news.baidu.com/ns">新闻</a></li>
+                    <li class="on"><a href="http://www.baidu.com/s">网页</a></li>
+                    <li><a href="http://music.baidu.com/search">MP3</a></li>
+                    <li><a href="http://zhidao.baidu.com/q">知道</a></li>
+                    <li><a href="http://video.baidu.com/v">视频</a></li>
+                    <li><a href="http://map.baidu.com/m">地图</a></li>
+                    <li><a href="http://baike.baidu.com/">百科</a></li>
+                </ul>
+        	</div>
+            <div class="search_bd fl">
+            	<form action="http://so.meadin.com/search/news" target="_blank" class="search_form">
+        		<div class="search_engine fl">
+					<div class="eng_list">
+                    	<a class="meadin" title="迈点搜索" href="http://so.meadin.com/search/news">迈点搜索</a>
+                    	<a class="baidu" title="百度" href="http://www.baidu.com/s">baidu</a>
+                    </div>
+					<a id="eng_logo" class="meadin" title="迈点" ></a>
+                    <div class="g_toggle"></div>
+                </div>
+                <div class="search_input_box fl">
+                	<input type="text" class="search_input"/>
+                </div>
+                <div class="search_btn_box fl">
+                	<input type="button" class="search_btn"/>
+                </div>
+                </form>
+        	</div>	
+        </div>
+        <ul class="daily_hotword fr">
+        	<li><a href="#" target="_blank" title="">IHMA报名送公开课</a></li>
+            <li><a href="#" target="_blank" title="">IHMA报名送公开课</a></li>
+            <li><a href="#" target="_blank" title="">IHMA报名送公开课</a></li>
+            <li><a href="#" target="_blank" title="">IHMA报名送公开课</a></li>
+        </ul>
+    </div>
+	<div class="layout_content">
+    	<div class="lc_main fr">
+        	<div class="lcm_inner">
+            	<div class="lcm_title"><h2>酒店业微博导航</h2></div>
+            	<div class="sina_attention">
+            		<div class="sa_weibo e_weibo">
+                    	<div class="saw_title fl">企业微博</div>
+                        <div class="saw_inner fl">
+                            <ul class="weibo_list">
+                                <li>
+                                    <p class="wb_pic"><a href="#" target="_blank" title="上海和平饭店上海和平饭店"><img src="images/banner.jpg" width="64" height="64" alt="上海和平饭店上海和平饭店"/></a></p>
+                                    <p class="wb_name"><a href="#" target="_blank" title="上海和平饭店上海和平饭店">上海和平饭店上海和平</a>饭店</p>
+                                    <p class="wb_btn"><iframe src="http://widget.weibo.com/relationship/followbutton.php?btn=light&amp;style=1&amp;uid=1851968610&amp;width=62&amp;height=24&amp;language=zh_cn" width="62" height="24" frameborder="0" scrolling="no" marginheight="0"></iframe></p>
+                                </li>
+                                <li>
+                                    <p class="wb_pic"><a href="#" target="_blank" title="上海和平饭店上海和平饭店"><img src="images/banner.jpg" width="64" height="64" alt="上海和平饭店上海和平饭店"/></a></p>
+                                    <p class="wb_name"><a href="#" target="_blank" title="上海和平饭店上海和平饭店">上海和平饭店上海和平</a>饭店</p>
+                                    <p class="wb_btn"><iframe src="http://widget.weibo.com/relationship/followbutton.php?btn=light&amp;style=1&amp;uid=1851968610&amp;width=62&amp;height=24&amp;language=zh_cn" width="62" height="24" frameborder="0" scrolling="no" marginheight="0"></iframe></p>
+                                </li>
+                                <li>
+                                    <p class="wb_pic"><a href="#" target="_blank" title="上海和平饭店上海和平饭店"><img src="images/banner.jpg" width="64" height="64" alt="上海和平饭店上海和平饭店"/></a></p>
+                                    <p class="wb_name"><a href="#" target="_blank" title="上海和平饭店上海和平饭店">上海和平饭店上海和平</a>饭店</p>
+                                    <p class="wb_btn"><iframe src="http://widget.weibo.com/relationship/followbutton.php?btn=light&amp;style=1&amp;uid=1851968610&amp;width=62&amp;height=24&amp;language=zh_cn" width="62" height="24" frameborder="0" scrolling="no" marginheight="0"></iframe></p>
+                                </li>
+                                <li>
+                                    <p class="wb_pic"><a href="#" target="_blank" title="上海和平饭店上海和平饭店"><img src="images/banner.jpg" width="64" height="64" alt="上海和平饭店上海和平饭店"/></a></p>
+                                    <p class="wb_name"><a href="#" target="_blank" title="上海和平饭店上海和平饭店">上海和平饭店上海和平</a>饭店</p>
+                                    <p class="wb_btn"><iframe src="http://widget.weibo.com/relationship/followbutton.php?btn=light&amp;style=1&amp;uid=1851968610&amp;width=62&amp;height=24&amp;language=zh_cn" width="62" height="24" frameborder="0" scrolling="no" marginheight="0"></iframe></p>
+                                </li>
+                                <li>
+                                    <p class="wb_pic"><a href="#" target="_blank" title="上海和平饭店上海和平饭店"><img src="images/banner.jpg" width="64" height="64" alt="上海和平饭店上海和平饭店"/></a></p>
+                                    <p class="wb_name"><a href="#" target="_blank" title="上海和平饭店上海和平饭店">上海和平饭店上海和平</a>饭店</p>
+                                    <p class="wb_btn"><iframe src="http://widget.weibo.com/relationship/followbutton.php?btn=light&amp;style=1&amp;uid=1851968610&amp;width=62&amp;height=24&amp;language=zh_cn" width="62" height="24" frameborder="0" scrolling="no" marginheight="0"></iframe></p>
+                                </li>
+                                <li>
+                                    <p class="wb_pic"><a href="#" target="_blank" title="上海和平饭店上海和平饭店"><img src="images/banner.jpg" width="64" height="64" alt="上海和平饭店上海和平饭店"/></a></p>
+                                    <p class="wb_name"><a href="#" target="_blank" title="上海和平饭店上海和平饭店">上海和平饭店上海和平</a>饭店</p>
+                                    <p class="wb_btn"><iframe src="http://widget.weibo.com/relationship/followbutton.php?btn=light&amp;style=1&amp;uid=1851968610&amp;width=62&amp;height=24&amp;language=zh_cn" width="62" height="24" frameborder="0" scrolling="no" marginheight="0"></iframe></p>
+                                </li>
+                                <li>
+                                    <p class="wb_pic"><a href="#" target="_blank" title="上海和平饭店上海和平饭店"><img src="images/banner.jpg" width="64" height="64" alt="上海和平饭店上海和平饭店"/></a></p>
+                                    <p class="wb_name"><a href="#" target="_blank" title="上海和平饭店上海和平饭店">上海和平饭店上海和平</a>饭店</p>
+                                    <p class="wb_btn"><iframe src="http://widget.weibo.com/relationship/followbutton.php?btn=light&amp;style=1&amp;uid=1851968610&amp;width=62&amp;height=24&amp;language=zh_cn" width="62" height="24" frameborder="0" scrolling="no" marginheight="0"></iframe></p>
+                                </li>
+                                <li>
+                                    <p class="wb_pic"><a href="#" target="_blank" title="上海和平饭店上海和平饭店"><img src="images/banner.jpg" width="64" height="64" alt="上海和平饭店上海和平饭店"/></a></p>
+                                    <p class="wb_name"><a href="#" target="_blank" title="上海和平饭店上海和平饭店">上海和平饭店上海和平</a>饭店</p>
+                                    <p class="wb_btn"><iframe src="http://widget.weibo.com/relationship/followbutton.php?btn=light&amp;style=1&amp;uid=1851968610&amp;width=62&amp;height=24&amp;language=zh_cn" width="62" height="24" frameborder="0" scrolling="no" marginheight="0"></iframe></p>
+                                </li>
+                                <li>
+                                    <p class="wb_pic"><a href="#" target="_blank" title="上海和平饭店上海和平饭店"><img src="images/banner.jpg" width="64" height="64" alt="上海和平饭店上海和平饭店"/></a></p>
+                                    <p class="wb_name"><a href="#" target="_blank" title="上海和平饭店上海和平饭店">上海和平饭店上海和平</a>饭店</p>
+                                    <p class="wb_btn"><iframe src="http://widget.weibo.com/relationship/followbutton.php?btn=light&amp;style=1&amp;uid=1851968610&amp;width=62&amp;height=24&amp;language=zh_cn" width="62" height="24" frameborder="0" scrolling="no" marginheight="0"></iframe></p>
+                                </li>
+                                <li>
+                                    <p class="wb_pic"><a href="#" target="_blank" title="上海和平饭店上海和平饭店"><img src="images/banner.jpg" width="64" height="64" alt="上海和平饭店上海和平饭店"/></a></p>
+                                    <p class="wb_name"><a href="#" target="_blank" title="上海和平饭店上海和平饭店">上海和平饭店上海和平</a>饭店</p>
+                                    <p class="wb_btn"><iframe src="http://widget.weibo.com/relationship/followbutton.php?btn=light&amp;style=1&amp;uid=1851968610&amp;width=62&amp;height=24&amp;language=zh_cn" width="62" height="24" frameborder="0" scrolling="no" marginheight="0"></iframe></p>
+                                </li>
+                                <li>
+                                    <p class="wb_pic"><a href="#" target="_blank" title="上海和平饭店上海和平饭店"><img src="images/banner.jpg" width="64" height="64" alt="上海和平饭店上海和平饭店"/></a></p>
+                                    <p class="wb_name"><a href="#" target="_blank" title="上海和平饭店上海和平饭店">上海和平饭店上海和平</a>饭店</p>
+                                    <p class="wb_btn"><iframe src="http://widget.weibo.com/relationship/followbutton.php?btn=light&amp;style=1&amp;uid=1851968610&amp;width=62&amp;height=24&amp;language=zh_cn" width="62" height="24" frameborder="0" scrolling="no" marginheight="0"></iframe></p>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        <div class="next_btn fr" title="下一组"></div>
+                    </div>
+                    <div class="sa_weibo">
+                    	<div class="saw_title fl">名人微博</div>
+                        <div class="saw_inner fl">
+                            <ul class="weibo_list">
+                               <li>
+                                    <p class="wb_pic"><a href="#" target="_blank" title="上海和平饭店上海和平饭店"><img src="images/banner.jpg" width="64" height="64" alt="上海和平饭店上海和平饭店"/></a></p>
+                                    <p class="wb_name"><a href="#" target="_blank" title="上海和平饭店上海和平饭店">上海和平饭店上海和平</a>饭店</p>
+                                    <p class="wb_btn"><iframe src="http://widget.weibo.com/relationship/followbutton.php?btn=light&amp;style=1&amp;uid=1851968610&amp;width=62&amp;height=24&amp;language=zh_cn" width="62" height="24" frameborder="0" scrolling="no" marginheight="0"></iframe></p>
+                                </li>
+                                <li>
+                                    <p class="wb_pic"><a href="#" target="_blank" title="上海和平饭店上海和平饭店"><img src="images/banner.jpg" width="64" height="64" alt="上海和平饭店上海和平饭店"/></a></p>
+                                    <p class="wb_name"><a href="#" target="_blank" title="上海和平饭店上海和平饭店">上海和平饭店上海和平</a>饭店</p>
+                                    <p class="wb_btn"><iframe src="http://widget.weibo.com/relationship/followbutton.php?btn=light&amp;style=1&amp;uid=1851968610&amp;width=62&amp;height=24&amp;language=zh_cn" width="62" height="24" frameborder="0" scrolling="no" marginheight="0"></iframe></p>
+                                </li>
+                                <li>
+                                    <p class="wb_pic"><a href="#" target="_blank" title="上海和平饭店上海和平饭店"><img src="images/banner.jpg" width="64" height="64" alt="上海和平饭店上海和平饭店"/></a></p>
+                                    <p class="wb_name"><a href="#" target="_blank" title="上海和平饭店上海和平饭店">上海和平饭店上海和平</a>饭店</p>
+                                    <p class="wb_btn"><iframe src="http://widget.weibo.com/relationship/followbutton.php?btn=light&amp;style=1&amp;uid=1851968610&amp;width=62&amp;height=24&amp;language=zh_cn" width="62" height="24" frameborder="0" scrolling="no" marginheight="0"></iframe></p>
+                                </li>
+                                <li>
+                                    <p class="wb_pic"><a href="#" target="_blank" title="上海和平饭店上海和平饭店"><img src="images/banner.jpg" width="64" height="64" alt="上海和平饭店上海和平饭店"/></a></p>
+                                    <p class="wb_name"><a href="#" target="_blank" title="上海和平饭店上海和平饭店">上海和平饭店上海和平</a>饭店</p>
+                                    <p class="wb_btn"><iframe src="http://widget.weibo.com/relationship/followbutton.php?btn=light&amp;style=1&amp;uid=1851968610&amp;width=62&amp;height=24&amp;language=zh_cn" width="62" height="24" frameborder="0" scrolling="no" marginheight="0"></iframe></p>
+                                </li>
+                                <li>
+                                    <p class="wb_pic"><a href="#" target="_blank" title="上海和平饭店上海和平饭店"><img src="images/banner.jpg" width="64" height="64" alt="上海和平饭店上海和平饭店"/></a></p>
+                                    <p class="wb_name"><a href="#" target="_blank" title="上海和平饭店上海和平饭店">上海和平饭店上海和平</a>饭店</p>
+                                    <p class="wb_btn"><iframe src="http://widget.weibo.com/relationship/followbutton.php?btn=light&amp;style=1&amp;uid=1851968610&amp;width=62&amp;height=24&amp;language=zh_cn" width="62" height="24" frameborder="0" scrolling="no" marginheight="0"></iframe></p>
+                                </li>
+                                <li>
+                                    <p class="wb_pic"><a href="#" target="_blank" title="上海和平饭店上海和平饭店"><img src="images/banner.jpg" width="64" height="64" alt="上海和平饭店上海和平饭店"/></a></p>
+                                    <p class="wb_name"><a href="#" target="_blank" title="上海和平饭店上海和平饭店">上海和平饭店上海和平</a>饭店</p>
+                                    <p class="wb_btn"><iframe src="http://widget.weibo.com/relationship/followbutton.php?btn=light&amp;style=1&amp;uid=1851968610&amp;width=62&amp;height=24&amp;language=zh_cn" width="62" height="24" frameborder="0" scrolling="no" marginheight="0"></iframe></p>
+                                </li>
+                                <li>
+                                    <p class="wb_pic"><a href="#" target="_blank" title="上海和平饭店上海和平饭店"><img src="images/banner.jpg" width="64" height="64" alt="上海和平饭店上海和平饭店"/></a></p>
+                                    <p class="wb_name"><a href="#" target="_blank" title="上海和平饭店上海和平饭店">上海和平饭店上海和平</a>饭店</p>
+                                    <p class="wb_btn"><iframe src="http://widget.weibo.com/relationship/followbutton.php?btn=light&amp;style=1&amp;uid=1851968610&amp;width=62&amp;height=24&amp;language=zh_cn" width="62" height="24" frameborder="0" scrolling="no" marginheight="0"></iframe></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="next_btn fr" title="下一组"></div>
+                    </div>
+            	</div>
+            </div>
+            <div class="lcm_inner">
+            	<div class="lcm_title"><h2>酒店业二维码导航 <span>二维码扫描工具下载</span></h2></div>
+            	<div class="qrcode_tab_hd">
+                	<ul class="qrcode_tab_nav">
+                        <li>酒 店 营 销</li>
+                        <li>微 &emsp; &emsp; 信</li>
+                        <li>移 动 应 用</li>
+                    </ul>
+                    <div class="tab_bg"><div class="bov1"><em>◆</em></div><div class="bov2"><em>◆</em></div></div>
+                </div>
+                <div class="qrcode_tab_bd">
+                	<div class="qrcode_inner" style="display:block;">
+                    	<div class="qi_con fl">
+                        	<div class="qi_con_inner">
+                                <ul class="qrcode_inner_list fl">
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                </ul>
+                                <ul class="qrcode_inner_list fl">
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                </ul>
+                                <ul class="qrcode_inner_list fl">
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                </ul>
+                            </div>    
+                        </div>
+                        <div class="next_btn2 fr" title="下一组"></div>
+                    </div>
+                    <div class="qrcode_inner">
+                    	<div class="qi_con fl">
+                        	<div class="qi_con_inner">
+                                <ul class="qrcode_inner_list fl">
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                </ul>
+                                <ul class="qrcode_inner_list fl">
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                </ul>
+                                <ul class="qrcode_inner_list fl">
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                </ul>
+                            </div>    
+                        </div>
+                        <div class="next_btn2 fr" title="下一组"></div>
+                    </div>
+                    <div class="qrcode_inner">
+                    	<div class="qi_con fl">
+                        	<div class="qi_con_inner">
+                                <ul class="qrcode_inner_list fl">
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                </ul>
+                                <ul class="qrcode_inner_list fl">
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                </ul>
+                                <ul class="qrcode_inner_list fl">
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                    <li>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11"><img src="images/wx.png" width="120" height="120" alt="上海和平饭店11"/></a>
+                                        <a href="wxinner.html" target="_blank" title="上海和平饭店11" class="qrc_name">上海和平饭店11</a>
+                                    </li>
+                                </ul>
+                            </div>    
+                        </div>
+                        <div class="next_btn2 fr" title="下一组"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="lcm_bar">
+            	<a href="#" target="_blank">先之IHMA报名送公开课</a><a href="#" target="_blank">刘永棣老师最新公开课</a><a href="#" target="_blank">二维码营销</a><a href="#" target="_blank" class="color_green">二维码营销</a><a href="#" target="_blank">刘永棣老师最新公开课</a><a href="#" target="_blank">二维码营销系统</a>
+            </div>
+            <div class="lcm_coolsite">
+            	<ul class="groups">
+                	<li>
+                        <h3 class="g_tit fl"><a href="sitelist.html" target="_blank">行业媒体</a></h3>
+                        <a href="#" target="_blank" class="g_more fr">更多>></a>
+                        <ul class="g_list fl">
+                            <li><a href="#" target="_blank" title="上海和平饭店饭店" >上海和平饭店饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="g_tit fl"><a href="sitelist.html" target="_blank">互动社区</a></h3>
+                        <a href="#" target="_blank" class="g_more fr">更多>></a>
+                        <ul class="g_list fl">
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="g_tit fl"><a href="sitelist.html" target="_blank">公众点评</a></h3>
+                        <a href="#" target="_blank" class="g_more fr">更多>></a>
+                        <ul class="g_list fl">
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="g_tit fl"><a href="sitelist.html" target="_blank">酒店预订</a></h3>
+                        <a href="#" target="_blank" class="g_more fr">更多>></a>
+                        <ul class="g_list fl">
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                        </ul>
+                    </li>
+                </ul>	
+                <ul class="groups">
+                	<li>
+                        <h3 class="g_tit fl"><a href="sitelist.html" target="_blank">物品采购</a></h3>
+                        <a href="#" target="_blank" class="g_more fr">更多>></a>
+                        <ul class="g_list fl">
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="g_tit fl"><a href="sitelist.html" target="_blank">连锁加盟</a></h3>
+                        <a href="#" target="_blank" class="g_more fr">更多>></a>
+                        <ul class="g_list fl">
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="g_tit fl"><a href="sitelist.html" target="_blank">集团管理</a></h3>
+                        <a href="#" target="_blank" class="g_more fr">更多>></a>
+                        <ul class="g_list fl">
+                            <li><a href="#" target="_blank" class="color_red">上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="g_tit fl"><a href="sitelist.html" target="_blank">咨询顾问</a></h3>
+                        <a href="#" target="_blank" class="g_more fr">更多>></a>
+                        <ul class="g_list fl">
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="g_tit fl"><a href="sitelist.html" target="_blank">项目筹建</a></h3>
+                        <a href="#" target="_blank" class="g_more fr">更多>></a>
+                        <ul class="g_list fl">
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="g_tit fl"><a href="sitelist.html" target="_blank">规划设计</a></h3>
+                        <a href="#" target="_blank" class="g_more fr">更多>></a>
+                        <ul class="g_list fl">
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="groups">
+                	<li>
+                        <h3 class="g_tit fl"><a href="sitelist.html" target="_blank">招聘网站</a></h3>
+                        <a href="#" target="_blank" class="g_more fr">更多>></a>
+                        <ul class="g_list fl">
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="g_tit fl"><a href="sitelist.html" target="_blank">培训机构</a></h3>
+                        <a href="#" target="_blank" class="g_more fr">更多>></a>
+                        <ul class="g_list fl">
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="g_tit fl"><a href="sitelist.html" target="_blank">旅游院校</a></h3>
+                        <a href="#" target="_blank" class="g_more fr">更多>></a>
+                        <ul class="g_list fl">
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="g_tit fl"><a href="sitelist.html" target="_blank">行业协会</a></h3>
+                        <a href="#" target="_blank" class="g_more fr">更多>></a>
+                        <ul class="g_list fl">
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="g_tit fl"><a href="sitelist.html" target="_blank">主管机构</a></h3>
+                        <a href="#" target="_blank" class="g_more fr">更多>></a>
+                        <ul class="g_list fl">
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="g_tit fl"><a href="sitelist.html" target="_blank">联盟组织</a></h3>
+                        <a href="#" target="_blank" class="g_more fr">更多>></a>
+                        <ul class="g_list fl">
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="g_tit fl"><a href="sitelist.html" target="_blank">峰会论坛</a></h3>
+                        <a href="#" target="_blank" class="g_more fr">更多>></a>
+                        <ul class="g_list fl">
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="g_tit fl"><a href="sitelist.html" target="_blank">行业展会</a></h3>
+                        <a href="#" target="_blank" class="g_more fr">更多>></a>
+                        <ul class="g_list fl">
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="groups">
+                	<li>
+                        <h3 class="g_tit fl"><a href="sitelist.html" target="_blank">信息智能化</a></h3>
+                        <a href="#" target="_blank" class="g_more fr">更多>></a>
+                        <ul class="g_list fl">
+                            <li><a href="#" target="_blank" class="color_red" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="g_tit fl"><a href="sitelist.html" target="_blank">节能降耗</a></h3>
+                        <a href="#" target="_blank" class="g_more fr">更多>></a>
+                        <ul class="g_list fl">
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="g_tit fl"><a href="sitelist.html" target="_blank">客房用品</a></h3>
+                        <a href="#" target="_blank" class="g_more fr">更多>></a>
+                        <ul class="g_list fl">
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3 class="g_tit fl"><a href="sitelist.html" target="_blank">清洁洗涤</a></h3>
+                        <a href="#" target="_blank" class="g_more fr">更多>></a>
+                        <ul class="g_list fl">
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                            <li><a href="#" target="_blank" >上海和平饭店</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    	<div class="lc_side fl">
+        	<div class="lcs_inner">
+            	<div class="lcs_title"><span><a href="wxlist.html" target="_blank">更多>></a></span><h2>酒店业微信导航</h2></div>
+                <ul class="weixin_topnav">
+                    <li class="top_one current"><a href="wxinner.html" target="_blank" title="先之酒店培训店培训">先之酒店培训店培训</a>
+                        <div class="top_one_inner">
+                            <div class="to_pic fl">
+                                <a href="wxinner.html" target="_blank" title="先之酒店培训店培训"><img src="images/banner.jpg" width="48" height="48" alt="先之酒店培训店培训"/></a>
+                            </div>
+                            <div class="to_add fl">
+                                <div class="toa_stars"><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span></div>
+                                <a href="wxinner.html" target="_blank" class="add_weixin"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="top_two"><a href="#" target="_blank" title="迈点酒店门户网站">迈点酒店门户网站</a>
+                    	<div class="top_one_inner">
+                            <div class="to_pic fl">
+                                <a href="wxinner.html" target="_blank" title="先之酒店培训店培训"><img src="images/banner.jpg" width="48" height="48" alt="先之酒店培训店培训"/></a>
+                            </div>
+                            <div class="to_add fl">
+                                <div class="toa_stars"><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span></div>
+                                <a href="wxinner.html" target="_blank" class="add_weixin"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="top_three"><a href="#" target="_blank" title="先之酒店培训">先之酒店培训</a>
+                    	<div class="top_one_inner">
+                            <div class="to_pic fl">
+                                <a href="wxinner.html" target="_blank" title="先之酒店培训店培训"><img src="images/banner.jpg" width="48" height="48" alt="先之酒店培训店培训"/></a>
+                            </div>
+                            <div class="to_add fl">
+                                <div class="toa_stars"><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span></div>
+                                <a href="wxinner.html" target="_blank" class="add_weixin"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="top_four"><a href="#" target="_blank" title="迈点酒店门户网站">迈点酒店门户网站</a>
+                    	<div class="top_one_inner">
+                            <div class="to_pic fl">
+                                <a href="wxinner.html" target="_blank" title="先之酒店培训店培训"><img src="images/banner.jpg" width="48" height="48" alt="先之酒店培训店培训"/></a>
+                            </div>
+                            <div class="to_add fl">
+                                <div class="toa_stars"><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span></div>
+                                <a href="wxinner.html" target="_blank" class="add_weixin"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="top_five"><a href="#" target="_blank" title="迈点酒店门户网站">迈点酒店门户网站</a>
+                    	<div class="top_one_inner">
+                            <div class="to_pic fl">
+                                <a href="wxinner.html" target="_blank" title="先之酒店培训店培训"><img src="images/banner.jpg" width="48" height="48" alt="先之酒店培训店培训"/></a>
+                            </div>
+                            <div class="to_add fl">
+                                <div class="toa_stars"><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span></div>
+                                <a href="wxinner.html" target="_blank" class="add_weixin"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="top_six"><a href="#" target="_blank" title="先之酒店培训先之酒店培训">先之酒店培训先之酒店培训</a>
+                    	<div class="top_one_inner">
+                            <div class="to_pic fl">
+                                <a href="wxinner.html" target="_blank" title="先之酒店培训店培训"><img src="images/banner.jpg" width="48" height="48" alt="先之酒店培训店培训"/></a>
+                            </div>
+                            <div class="to_add fl">
+                                <div class="toa_stars"><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span></div>
+                                <a href="wxinner.html" target="_blank" class="add_weixin"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="top_seven"><a href="#" target="_blank" title="先之酒店培训">先之酒店培训</a>
+                    	<div class="top_one_inner">
+                            <div class="to_pic fl">
+                                <a href="wxinner.html" target="_blank" title="先之酒店培训店培训"><img src="images/banner.jpg" width="48" height="48" alt="先之酒店培训店培训"/></a>
+                            </div>
+                            <div class="to_add fl">
+                                <div class="toa_stars"><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span></div>
+                                <a href="wxinner.html" target="_blank" class="add_weixin"></a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="top_eight"><a href="#" target="_blank" title="先之酒店培训">先之酒店培训</a>
+                    	<div class="top_one_inner">
+                            <div class="to_pic fl">
+                                <a href="wxinner.html" target="_blank" title="先之酒店培训店培训"><img src="images/banner.jpg" width="48" height="48" alt="先之酒店培训店培训"/></a>
+                            </div>
+                            <div class="to_add fl">
+                                <div class="toa_stars"><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span><span class="icon_star"></span></div>
+                                <a href="wxinner.html" target="_blank" class="add_weixin"></a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="lcs_title"><span><a href="applist.html" target="_blank">更多>></a></span><h2>酒店业APP推荐</h2></div>
+                <ul class="app_list">
+                	<li>
+                    	<a href="#" target="_blank" title="最佳东方">
+                        	<img src="images/banner.jpg" width="46" height="46" alt="最佳东方" />
+                        </a>
+                        <a href="#" target="_blank" title="最佳东方">最佳东方</a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank" title="最佳东方">
+                        	<img src="images/banner.jpg" width="46" height="46" alt="最佳东方" />
+                        </a>
+                        <a href="#" target="_blank" title="最佳东方">最佳东方</a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank" title="最佳东方">
+                        	<img src="images/banner.jpg" width="46" height="46" alt="最佳东方" />
+                        </a>
+                        <a href="#" target="_blank" title="最佳东方">最佳东方</a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank" title="最佳东方">
+                        	<img src="images/banner.jpg" width="46" height="46" alt="最佳东方" />
+                        </a>
+                        <a href="#" target="_blank" title="最佳东方">最佳东方</a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank" title="最佳东方">
+                        	<img src="images/banner.jpg" width="46" height="46" alt="最佳东方" />
+                        </a>
+                        <a href="#" target="_blank" title="最佳东方">最佳东方</a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank" title="最佳东方">
+                        	<img src="images/banner.jpg" width="46" height="46" alt="最佳东方" />
+                        </a>
+                        <a href="#" target="_blank" title="最佳东方">最佳东方</a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank" title="最佳东方">
+                        	<img src="images/banner.jpg" width="46" height="46" alt="最佳东方" />
+                        </a>
+                        <a href="#" target="_blank" title="最佳东方">最佳东方</a>
+                    </li>
+                    <li>
+                    	<a href="#" target="_blank" title="最佳东方">
+                        	<img src="images/banner.jpg" width="46" height="46" alt="最佳东方" />
+                        </a>
+                        <a href="#" target="_blank" title="最佳东方">最佳东方</a>
+                    </li>
+                </ul>
+                <div class="lcs_title"><h2>快速入口</h2></div>
+                <ul class="fast_track">
+                	<li><a href="http://info.meadin.com/" target="_blank">看新闻</a></li>
+                    <li><a href="http://v.9first.com/" target="_blank">看视频</a></li>
+					<li><a href="http://baike.meadin.com/" target="_blank">添百科</a></li>        
+                    <li><a href="http://papers.meadin.com/" target="_blank">下资料</a></li>
+					<li><a href="http://bbs.meadin.com/" target="_blank">逛论坛</a></li>        
+                    <li><a href="http://blog.meadin.com/" target="_blank">上博客</a></li> 
+					<li><a href="http://home.meadin.com/" target="_blank">人脉圈</a></li>        
+                    <li><a href="http://search.veryeast.cn/" target="_blank">找工作</a></li>
+					<li><a href="http://ihma.9first.com/" target="_blank">考认证</a></li>        
+                    <li><a href="http://zph.veryeast.cn/" target="_blank">招聘会</a></li>
+                </ul>
+            </div>
+            <div class="lcs_inner">
+                <div class="downloads">
+                	<div class="lcs_title download_icon"><span><a href="http://papers.meadin.com/search/index?condition=&format=&functionsType=&classType=0&ordeById=0&seachType=0&lableId=" target="_blank">更多>></a></span><h2>资料下载</h2></div>
+                    <ul class="downloads_list">
+                    	<li><a href="http://papers.meadin.com/search/index?condition=&format=&functionsType=&classType=19&ordeById=0&seachType=0&lableId=" target="_blank">规章制度</a></li>       
+                        <li><a href="http://papers.meadin.com/search/index?condition=&format=&functionsType=&classType=25&ordeById=0&seachType=0&lableId=" target="_blank">培训资料</a></li>
+                        <li><a href="http://papers.meadin.com/search/index?condition=&format=&functionsType=&classType=20&ordeById=0&seachType=0&lableId=" target="_blank">岗位职责</a></li>       
+                        <li><a href="http://papers.meadin.com/search/index?condition=&format=&functionsType=&classType=26&ordeById=0&seachType=0&lableId=" target="_blank">合同资料</a></li>
+                        <li><a href="http://papers.meadin.com/search/index?condition=&format=&functionsType=&classType=21&ordeById=0&seachType=0&lableId=" target="_blank">操作流程</a></li>      
+                        <li><a href="http://papers.meadin.com/search/index?condition=&format=&functionsType=&classType=27&ordeById=0&seachType=0&lableId=" target="_blank">经典案例</a></li>
+                        <li><a href="http://papers.meadin.com/search/index?condition=&format=&functionsType=&classType=22&ordeById=0&seachType=0&lableId=" target="_blank">计划总结</a></li>       
+                        <li><a href="http://papers.meadin.com/search/index?condition=&format=&functionsType=&classType=28&ordeById=0&seachType=0&lableId=" target="_blank">酒店英语</a></li>
+                        <li><a href="http://papers.meadin.com/search/index?condition=&format=&functionsType=&classType=23&ordeById=0&seachType=0&lableId=" target="_blank">活动方案</a></li>       
+                        <li><a href="http://papers.meadin.com/search/index?condition=&format=&functionsType=&classType=29&ordeById=0&seachType=0&lableId=" target="_blank">管理知识</a></li>
+                        <li><a href="http://papers.meadin.com/search/index?condition=&format=&functionsType=&classType=24&ordeById=0&seachType=0&lableId=" target="_blank">管理表格</a></li>       
+                        <li><a href="http://papers.meadin.com/search/index?condition=&format=&functionsType=&classType=37&ordeById=0&seachType=0&lableId=" target="_blank">分析报告</a></li>
+                        <li><a href="http://papers.meadin.com/search/index?condition=&format=&functionsType=&classType=30&ordeById=0&seachType=0&lableId=" target="_blank">其他资料</a></li>
+					</ul>	
+                </div>
+            </div>		
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <div class="f_copyright">
+            <span class="sitelink"><a href="aboutus.html#0" target="_blank">关于本站</a> | <a href="aboutus.html#1" target="_blank" class="color_green">收录申请</a> | <a href="aboutus.html#2" target="_blank">广告投放</a></span><span class="copyright">Copyright © 2013 迈点导航. All Rights Reserved.</span><span class="links"><span><a href="http://www.dfwsgroup.com/" target="_blank">东方网升</a>旗下品牌：</span> <a href="http://www.veryeast.cn/" target="_blank">最佳东方</a> | <a href="http://www.9first.com" target="_blank">先之</a> | <a href="http://www.meadin.com" target="_blank">迈点</a> | <a href="http://www.jobbon.cn" target="_blank">乔邦猎头</a></span>浙B2-20090034 
+        </div>
+</div>    
+<div class="login_popup">
+    <p>通行证用户可直接登录</p>
+    <ul>
+        <li><span>通行证：</span><input type="text" class="login_text"/></li>
+        <li><span>密&emsp;码：</span><input type="password" class="login_text"/></li>
+        <li><input type="button" value="登录" class="login_btn"><input type="button" value="取消" class="cancel_btn"></li>
+        <li><a href="#" target="_blank" class="forget_password">忘记密码？</a><a href="#" target="_blank">免费注册通行证</a></li>
+    </ul>
+</div>
+<ul class="mail_list" selectindex="">
+  <li dn="0">@163.com</li>
+  <li dn="1">@126.com</li>
+  <li dn="2">@sina.com</li>
+  <li dn="3">@yahoo.com.cn</li>
+  <li dn="4">@yahoo.cn</li>
+  <li dn="5">@sohu.com</li>
+  <li dn="6">@yeah.net</li>
+  <li dn="7">@139.com</li>
+  <li dn="8">@tom.com</li>
+  <li dn="9">@21cn.com</li>
+  <li dn="10">人人网</li>
+  <li dn="11">51.com</li>
+  <li class="no">以下弹出登录</li>
+  <li><a href="https://www.alipay.com/user/login.htm" target="_blank">支付宝</a></li>
+  <li><a href="https://passport.baidu.com/v2/?login" target="_blank">登录百度</a></li>
+  <li><a href="http://mail.qq.com" target="_blank">@qq.com</a></li>
+  <li><a href="http://qzone.qq.com/index.html" target="_blank">QQ空间</a></li>
+  <li><a href="http://web2.qq.com" target="_blank">webqq</a></li>
+  <li><a href="http://weibo.com/login.php" target="_blank">新浪微博</a></li>
+  <li><a href="http://mail.google.com/mail/" target="_blank">@gmail.com</a></li>
+  <li><a href="http://www.hotmail.com" target="_blank">@hotmail.com</a></li>
+  <li><a href="http://www.kaixin001.com" target="_blank">开心网</a></li>
+</ul>
+</body>
+</html>
